@@ -54,3 +54,23 @@ letterIndex = word.find('M')
 sentence = ' Hello World  '
 newSentence = sentence.strip()
 
+myName = 'Manasseh'
+print(myName.startswith('M')) 
+
+print(myName.count('s'))
+
+#find string method
+print(myName.find('M'))
+
+
+data = 'From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+atpos = data.find('@')
+
+sppose = data.find(' ')
+
+email = data[5:21]
+
+camel = 42
+print(type(f'{camel}'))#string literals
+
+print(f'Hello Im Batmam Im {camel}')
